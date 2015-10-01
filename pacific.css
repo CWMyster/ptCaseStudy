@@ -1,6 +1,10 @@
 body { color: #666666 }
-header { color: #FFFFFF; background-color: #000033; }
+header { color: #FFFFFF; background-color: #000033; 
+    background-image: url(images/sunset.jpg); 
+    background-position: right; 
+    background-repeat: no-repeat; }
 nav { background-color: #90C7E3; }
-h2 { color: #90C7E3; }
+h2 { color: #3399CC; }
 h3 { color: #000033; }
+main ul { list-style-image: url(images/marker.gif); }
 .resort {color: #5C7FA3; }
