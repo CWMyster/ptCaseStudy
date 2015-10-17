@@ -140,6 +140,43 @@ footer {
     margin-left: 190px;
     background-color: #ffffff;
 }
+@media only screen and (max-width: 768px) {
+    nav { 
+        float: none;
+        width: auto;
+        padding: .5em;
+        text-align: center;
+}
+    body { 
+        margin: 0px;
+        background-image: none; 
+        background-color: #ffffff;
+}
+    #wrapper { 
+        min-width: 0px;
+        width: auto; 
+        box-shadow: none;
+}
+    nav li { 
+        display: inline;
+        padding-top: 0em; 
+        padding-right: .75em; 
+        padding-bottom: 0em; 
+        padding-left: .75em; 
+}
+    main { margin-left: 0px }
+    #homehero { margin-left: 0px }
+    #trailhero { margin-left: 0px }
+    #yurthero { margin-left: 0px }
+    footer {margin-left: 0px }
+    
+    
+    
+    
+    
+    
+    
+}
 
     
 
