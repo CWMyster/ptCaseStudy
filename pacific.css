@@ -1,14 +1,22 @@
+header, main, nav, footer, figure, figcaption, aside, section, article {
+  display: block;
+}
 body { 
     color: #666666; 
     font-family: Arial,"Helvetica Neue",Helvetica,sans-serif; 
     background-image: url(images/ptrbackground.jpg); 
-    padding-top: 1px; 
-    padding-bottom: 20px; 
-    padding-left: 20px; 
+}
+main { padding-top: 1px; 
     padding-right: 20px; 
+    padding-bottom: 20px; 
+    padding-left: 20px;
+}
+main ul { 
+    list-style-image: url(images/marker.gif); 
 }
 header { 
-    color: #FFFFFF; background-color: #000033; 
+    color: #FFFFFF; 
+    background-color: #000033; 
     background-image: url(images/sunset.jpg); 
     background-position: right; 
     background-repeat: no-repeat; 
@@ -19,13 +27,17 @@ nav {
     font-weight: bold; 
     text-align: center; 
     padding-top: 5px; 
+    padding-right: 20px; 
     padding-bottom: 5px; 
     padding-left: 20px; 
-    padding-right: 5px; 
 }
+nav a:link { color: #000000; }
+nav a:visited { color: #000033; }
+nav a:hover { color: #ffffff; }
+
 nav a { 
     text-decoration: none; 
-}
+   }
 h1 { 
     font-family: Georgia,Times,"Times New Roman",serif; 
     margin-bottom: 0; 
@@ -40,9 +52,6 @@ h3 {
     color: #000033; 
     font-family: Georgia,Times,"Times New Roman",serif; 
 }
-main ul { 
-    list-style-image: url(images/marker.gif); 
-}
 #contact { 
     font-size: 80% 
 }
@@ -53,14 +62,71 @@ main ul {
     margin: auto; 
     box-shadow: 5px 5px 5px #000033 
 }
+.resort { 
+    color: #5C7FA3; 
+    font-weight: bold; 
+}
+#homehero { 
+    background-image: url("images/coasthero.jpg"); 
+    height: 300px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#trailhero { 
+    background-image: url("images/trailhero.jpg"); 
+    height: 300px; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+#yurthero { 
+    background-image: url("images/yurthero.jpg"); 
+    height: 300px; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+#gallery { 
+    position: relative;
+    height: 200px;
+}
+#gallery img { 
+    float: none;
+    padding: 0px;
+}
+#gallery ul { 
+    list-style-type: none; 
+    width: 250px; 
+}
+#gallery li { 
+    display: inline; 
+    float: left; 
+    padding: 10px 
+}
+#gallery a { 
+    text-decoration: none; color: #333333; 
+    font-style: italic; 
+}
+#gallery span { 
+    display: none; 
+}
+#gallery a:hover span { 
+    display: block; 
+    position: absolute; top: 15px; left: 320px; 
+    text-align: center; 
+}
+#placeholder {
+    position: absolute;
+    top: 15px;
+    left: 320px;
+    opacity: .25;
+}
 footer { 
     font-family: Georgia,Times,"Times New Roman",serif; 
     font-style: italic; 
     font-size: 75%; 
     text-align: center; 
-    padding: 20px 
+    padding: 20px;
+    float: none;
 }
-.resort { 
-    color: #5C7FA3; 
-    font-weight: bold 
-}
+
+    
+
