@@ -4,7 +4,8 @@ header, main, nav, footer, figure, figcaption, aside, section, article {
 body { 
     color: #666666; 
     font-family: Arial,"Helvetica Neue",Helvetica,"sans-serif"; 
-    background-image: linear-gradient(to bottom, #ffffff, #4f6d93 )
+    background-image: linear-gradient( to bottom, #ffffff, #4f6d93 ); 
+    background-size: cover; 
 }
 main { 
     padding-top: 1px; 
@@ -40,9 +41,8 @@ nav a:visited { color: #344873; }
 nav a:hover { color: #ffffff; }
 
 nav a { 
-    text-decoration: none;
-    transition-duration: .5s; 
-   }
+    text-decoration: none; transition-duration: .5s;
+}
 nav ul { 
     list-style-type: none;
     padding: 0px; margin: 0px;
@@ -78,9 +78,9 @@ h3 {
 table { border: 1px solid #3399cc; width: 80%; border-spacing: 0; }
 td { padding: 5px; border: 1px solid #3399cc; text-align: center; }
 th { border: 1px solid #3399cc; }
-
 .align-left { text-align: left }
 .zebra { background-color: #f5fafc }
+input[type="submit"] { display: block; margin-left: 130px }
 label { float: left ; display: block; text-align: right; width: 120px; padding-right: 10px }
 input { display: block; margin-bottom: 20px; }
 video { float: right; padding-left: 40px }
@@ -223,7 +223,7 @@ main {
 #homehero { 
     background-image: none; 
     height: 0px }
-label { clear: both; text-align: center }
+label { float: none ; text-align: center }
 textarea { max-width: 480px }
 h1 { font-size: 1.5em }
 .desktop { display: none; }
